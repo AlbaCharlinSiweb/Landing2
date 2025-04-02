@@ -1,6 +1,7 @@
 import './App.css'
 import { useState, useEffect, useRef } from 'react'
 import ExitPopup from './components/ExitPopup'
+import Navbar from './blocks/Navbar';
 import Block1 from './blocks/Block1';
 import Block2 from './blocks/Block2';
 import Block3 from './blocks/Block3';
@@ -85,6 +86,7 @@ function App() {
     <div className="flex flex-col justify-center items-center">
       {showPopup && <ExitPopup onClose={handleClosePopup} isClosing={isClosing} />}
       
+      <Navbar />
       <Block1 handleClick={handleClick} />
       <Block2 />
       <Block3 />

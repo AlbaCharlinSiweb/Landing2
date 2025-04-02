@@ -24,7 +24,7 @@ function Block2() {
               </div>
               <button 
                 type="submit" 
-                className="w-full bg-cyan-600 text-white hover:bg-blue-700 font-medium py-3 px-6 rounded-lg transition-colors duration-300 text-lg transform hover:scale-105"
+                className="w-full bg-cyan-600 text-white hover:bg-cyan-700 font-medium py-3 px-6 rounded-lg transition-colors duration-300 text-lg transform hover:scale-105"
               >
                 Te Llamamos Gratis
               </button>
